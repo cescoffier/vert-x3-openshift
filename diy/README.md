@@ -112,12 +112,10 @@ Your application is going to be copied into the `application` directory.
 **Copy the scripts**
 
 There are three scripts to copy to `.openshift/action_hooks`:
- 
-TODO Links
- 
-* `pre_start` - provision Java 8
-* `start` - Start the application 
-* `stop` - Stop the application   
+  
+* `pre_start` - provision Java 8: [link](https://raw.githubusercontent.com/cescoffier/vertx-openshift/initial-work/diy/template/.openshift/action_hooks/pre_start)
+* `start` - Start the application: [link](https://raw.githubusercontent.com/cescoffier/vertx-openshift/initial-work/diy/template/.openshift/action_hooks/start) 
+* `stop` - Stop the application: [link](https://raw.githubusercontent.com/cescoffier/vertx-openshift/initial-work/diy/template/.openshift/action_hooks/stop)   
 
 These scripts can be copied from this template. 
 
